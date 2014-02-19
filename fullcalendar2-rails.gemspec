@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'fullcalendar2/rails/version'
+require 'fullcalendar2-rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "fullcalendar2-rails"
